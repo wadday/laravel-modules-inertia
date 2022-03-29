@@ -1,0 +1,22 @@
+<template>
+    <app>
+       <template #header>
+            <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+                $STUDLY_NAME$
+            </h2>
+        </template>
+
+        <slot></slot>
+    </app>
+</template>
+
+<script>
+import App from '@/Layouts/Authenticated'
+
+export default {
+    name: 'Layout',
+    components: {
+        App,
+    },
+}
+</script>
