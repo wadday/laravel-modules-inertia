@@ -32,4 +32,6 @@ it takes 2 argument. First name of the component & second name of the module.
 Link module will be runs after running `php artisan wue:make-cmodule` but if you decide to use laravel-modules `php artisan module:make` command than you would also need to link command. so that during npm build it can be compiled.
 
 ### Note
-when deleting module the created symbolic link may exist, so manual action may require.
+When deleting module the created symbolic link may exist, so manual action may require.
+
+Take a look on config/modules.php. I have made few changes.
