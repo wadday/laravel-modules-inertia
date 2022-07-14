@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import App from '@/Layouts/Authenticated'
+import App from '@/Layouts/Authenticated.vue'
 
 export default {
     name: 'Layout',
