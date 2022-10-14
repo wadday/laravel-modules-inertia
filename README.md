@@ -35,3 +35,6 @@ Link module will be runs after running `php artisan wue:make-cmodule` but if you
 When deleting module the created symbolic link may exist, so manual action may require.
 
 Take a look on config/modules.php. I have made few changes.
+
+### Visits
+<img align="left" src = "https://profile-counter.glitch.me/laravel-modules-inertia/count.svg" alt ="Wue">
